@@ -22,7 +22,7 @@ g++ randomgen.cpp -o random
 ```
 >Enter the number of boys, girls and number of gifts in order and press Enter.Then:     
 ````
-g++ ques1.cpp -o ques1
+g++ main.cpp -o ques1
 ./ques1
 ````
 >This will print the relationships in the console and a log.txt file will be generated containing the time stamp,event type and the description.
@@ -36,7 +36,7 @@ g++ randomgen.cpp -o random
 ```
 >Enter the number of boys, girls and number of gifts in order and press Enter.Then:     
 ````
-g++ ques2.cpp -o ques2
+g++ main.cpp -o ques2
 ./ques2
 ````
 >Enter the value of k and press Enter.       
