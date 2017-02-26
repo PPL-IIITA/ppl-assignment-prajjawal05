@@ -5,7 +5,7 @@
 ##Getting Started
 >The Project was built in: macOS Sierra Version 10.12.1                      
 >The Project was built using: Command Line tools in the terminal.   
->The Documentation was made using Doxygen.        
+>The Documentation was made using Doxygen and Latex.        
 >The class Diagrams were made using StarUML.
 
 ##Prerequisities
