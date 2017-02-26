@@ -9,7 +9,7 @@
 >The class Diagrams were made using StarUML.
 
 ##Prerequisities
->g++
+>g++ Compiler.
 
 ##Building and running the codes
 
