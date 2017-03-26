@@ -1,4 +1,4 @@
-#PPL Assignment - IIT2015099##
+#PPL Assignment - IIT2015099#
 >The repository contains two folders **ques1** and **ques2** each of which contains the *Source Codes*, *Class Diagram* and the *Documentations*.
 >The codes are written in cpp.
 
