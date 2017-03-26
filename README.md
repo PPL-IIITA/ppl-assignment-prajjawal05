@@ -1,19 +1,19 @@
-#PPL Assignment - IIT2015099
+#PPL Assignment - IIT2015099##
 >The repository contains two folders **ques1** and **ques2** each of which contains the *Source Codes*, *Class Diagram* and the *Documentations*.
 >The codes are written in cpp.
 
-##Getting Started
+##Getting Started##
 >The Project was built in: macOS Sierra Version 10.12.1                      
 >The Project was built using: Command Line tools in the terminal.   
 >The Documentation was made using Doxygen and Latex.        
 >The class Diagrams were made using StarUML.
 
-##Prerequisities
+##Prerequisities##
 >g++ Compiler.
 
-##Building and running the codes
+##Building and running the codes##
 
-###Question1
+###Question1###
 >Open the Folder **ques1**           
 >Create Random Test cases using the following commands:
 ```
