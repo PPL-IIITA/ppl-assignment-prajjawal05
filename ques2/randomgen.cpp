@@ -2,9 +2,9 @@
 #include"gifts.cpp"
 int main(int argc, char **argv)
 {
-	printf("Enter the number of boys,girls and the number of gifts in order separated by spaces\n");
+	//printf("Enter the number of boys,girls and the number of gifts in order separated by spaces\n");
 	int nb,ng,ngf;
-	scanf("%d%d%d",&nb,&ng,&ngf);
+	nb=50,ng=30,ngf=75;
 	FILE*fb=fopen("boys.txt","w+");	//!Randomly Generating different types of boys in boys.txt.
 	for(int j=0;j<nb;j++)
 	{
