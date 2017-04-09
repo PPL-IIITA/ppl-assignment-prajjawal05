@@ -7,9 +7,8 @@ int main(int argc, char **argv)
 	FILE*fb=fopen("boys.txt","w+");	//!Randomly Generating different types of boys in boys.txt.
 	for(int j=0;j<nb;j++)
 	{
-		int namelen = rand()%8 + 1;
-		for(int i=0;i<namelen;i++)
-			fprintf(fb,"%c",(char)(rand()%26+'A'));	//!boy name.
+		fprintf(fb,"b");
+		fprintf(fb,"%d",j);	//!boy name.
 		fprintf(fb," ");
 		int type=rand()%3;		//!boy type.
 		if(type==0)
@@ -28,9 +27,7 @@ int main(int argc, char **argv)
 	FILE*fg=fopen("girls.txt","w+");  //!Randomly Generating different types of girls in girls.txt.
 	for(int j=0;j<ng;j++)
 	{
-		int namelen = rand()%8 + 1;
-		for(int i=0;i<namelen;i++)
-			fprintf(fg,"%c",(char)(rand()%26+'A'));	//!Name.
+		fprintf(fg,"g%d",j);	//!Name.
 		fprintf(fg," ");
 		int type=rand()%3;
 		if(type==0)
@@ -51,7 +48,6 @@ int main(int argc, char **argv)
 		fprintf(fg,"%d ",rand()%1000+200); //!maintenance.
 		fprintf(fg,"\n");
 	}
-
 	FILE *gi=fopen("gifts.txt","w+");		//!different types of gift int gift.txt.
 	for(int i=0;i<ngf;i++)
 	{
