@@ -12,13 +12,13 @@
 >g++ Compiler.
 
 ### Values
->Number of boys,girls and gifts taken are 50,30 and 75 respectively.
->Nothing is inputted from the console.
->The value of **K** (if required) are taken through rand() function.
+>Number of boys,girls and gifts taken are 50,30 and 75 respectively.  
+>Nothing is inputted from the console.  
+>The value of **K** (if required) are taken through rand() function.  
 
 ## Building and running the codes
->Open the Folder for any particular question  
->Open terminal and change the address to the folder directory
+>Open the Folder for any particular question.      
+>Open terminal and change the address to the folder directory.  
 >Run the following commands  
 ```
 g++ randomgen.cpp -o random
@@ -26,6 +26,6 @@ g++ randomgen.cpp -o random
 g++ main.cpp -o ques
 ./ques
 ```      
->This will print the required things in the console.
->Also a *log.txt* file will be generated containing the time stamp,event type(Relationships,Gifting,Breakup,New Relationship) and the description.
+>This will print the required things in the console.  
+>Also a *log.txt* file will be generated containing the time stamp,event type(Relationships,Gifting,Breakup,New Relationship) and the description.  
 
