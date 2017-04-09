@@ -29,3 +29,11 @@ g++ main.cpp -o ques
 >This will print the required things in the console.  
 >Also a **log.txt** file will be generated containing the time stamp,event type(Relationships,Gifting,Breakup,New Relationship) and the description.  
 
+## Creating Documentation
+>After creating latex folder through Doxygen Frontend GUI  
+>Open the latex folder from terminal
+>Run the following command
+```
+pdflatex refman.tex
+```
+>The required pdf will be created in the same directory with the default name *refman.pdf*
