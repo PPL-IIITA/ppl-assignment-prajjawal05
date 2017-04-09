@@ -31,7 +31,7 @@ g++ main.cpp -o ques
 
 ## Creating Documentation
 >After creating latex folder through Doxygen Frontend GUI  
->Open the latex folder from terminal
+>Open the latex folder from terminal  
 >Run the following command
 ```
 pdflatex refman.tex
