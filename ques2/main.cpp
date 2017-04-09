@@ -9,7 +9,6 @@ int main(int argc,char** argv)
 	util x; couples cc; int k;
 	x.coupling();	//!Inserting the couples formed into log file and couples.txt
 	x.gifting();	//!Inserting happiness and compatibility into fcalc.txt
-	printf("Enter the value of k not greater than number of couples(%d)\n",cc.readcouplecount());
-	scanf("%d",&k);
+	k = rand() % cc.readcouplecount();
 	x.most(k);	//!Printing the k happiest and k compatible couples.
 }
